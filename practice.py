@@ -20,3 +20,8 @@
 
 # 5. Can we add an element to a list? Can we add an element to a tuple?, Can the element of tuples be of different types?
 # Yes, No and Yes
+
+
+# 6. Create a dictionary with key-value first_name and last_name
+#dict = {"first_name": "Shervin","Last_name": "Ghanbary"}
+#print(type(dict))
