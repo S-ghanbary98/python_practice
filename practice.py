@@ -25,3 +25,29 @@
 # 6. Create a dictionary with key-value first_name and last_name
 #dict = {"first_name": "Shervin","Last_name": "Ghanbary"}
 #print(type(dict))
+#dict["middle_name"] = "shervael"
+#print(dict)
+
+#Create a class called student, initalise the class and create an object of the class.
+
+
+#class Student:
+#    def __init__(self, name):
+#        self.name = name
+
+
+#student = Student("Chris")
+
+
+
+
+# Create two functions that take two arguments each. Function one  = add values, function two subtract values.
+
+
+def add(a, b):
+    return a + b
+
+
+def sub(x, y):
+    return x - y
+
