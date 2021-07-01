@@ -51,3 +51,70 @@ def add(a, b):
 def sub(x, y):
     return x - y
 
+# Declare a dictionary cost, with eggs = 1.2 milk = 2.30 bread is 1.00
+# Write a function that return the total value
+
+dict = {"eggs": 1.2, "milk": 2.3, "bread": 1.00}
+
+def total_value():
+    sum = 0
+    for value in dict.values():
+        sum += value
+    return sum
+
+print(total_value())
+
+# Prompt the user to enter an integer, declare a function that checks if the number is odd or even and display back to the user the result.
+
+#enter = input("Integer?")
+
+def OddEven():
+    if enter % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+#select the correct syntax-
+#1 -super.__init().
+#2- super()__init().
+#3 super().__init().
+#4 - Super().__init__()
+
+#4
+
+# Declare a tuple with 3 values and iterate through the tuple. Display the values
+
+
+my_tuple = (3, 4, 5)
+
+for i in my_tuple:
+    print(i)
+
+
+# Create a class called student with a method called student data that return student names. Create a class called devops student and inherit the student class. then print the name.
+class student:
+
+
+
+
+
+    def student_data(self):
+        return "shervin"
+
+
+class Devops(student):
+    def __init__(self):
+        super().__init__()
+
+c = Devops()
+print(c.student_data())
+
+
+#Declare a variable named city and a method that takes city as an argument. function should check if city == london or not. Return true or false values
+
+city = "London"
+
+def check(city):
+    if city == "London":
+        return True
+    return False
